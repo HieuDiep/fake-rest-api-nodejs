@@ -1,0 +1,31 @@
+{
+  "protected_resources": {
+    "users": ["GET", "POST", "PUT", "PATCH", "DELETE"]
+  },
+  "student": [
+    { 
+      "id" : 17020182, 
+      "name": "Diệp Văn Hiếu", 
+      "dob": "1998-25-01", 
+      "email" : "diepvanhieuuet@gmail.com", 
+      "email2" : "17020182@vnu.edu.vn", 
+      "gender" : "Male", 
+      "acquaintance": { 
+        "acquaintance_id" : "father", 
+        "name" : "Diep Van Toan" 
+        } 
+      }, 
+      { 
+        "id" : 17020569, 
+        "name" : "Hoàng Tuấn Anh", 
+        "dob": "1999-10-01", 
+        "email" : "huongtdk@gmail.com", 
+        "email2" : "17020569@vnu.edu.vn", 
+        "gender" : "Male", 
+        "acquaintance" : { 
+          "acquaintance_id" : "father", 
+          "name" : "Hoang Anh Dung" 
+        } 
+      }    
+  ]
+}
